@@ -91,7 +91,7 @@ async def swagger_ui_html(
 
 app.get("/docs")(swwagger_ui_html)
 app.get("/dark_theme.css", include_in_schema=False, name="dark_theme")(fsd.dark_swagger_theme)
-```
+```่
 
 # Credit
 
